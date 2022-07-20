@@ -11,7 +11,25 @@ class Lecture1 {}
 
 extension Lecture1 {
     func task2() {
-        print("Задача: Кондиционер")
+        print("Задача: Треугольник")
+        let response1 = readLine()!
+        let response2 = readLine()!
+        let response3 = readLine()!
+        
+        let side1 = Int(response1)!
+        let side2 = Int(response2)!
+        let side3 = Int(response3)!
+
+        
+        let arr = [side1, side2, side3].sorted { $0 < $1 }
+        if arr.contains(where: { $0 == 0 }) {
+            print("NO")
+        }
+        if arr[0] + arr[1] > arr[2] {
+            print("YES")
+        } else {
+            print("NO")
+        }
     }
 }
 
