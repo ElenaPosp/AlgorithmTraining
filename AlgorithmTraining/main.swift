@@ -7,6 +7,7 @@
 
 import Foundation
 
-Lecture1().task1()
-Lecture1().task2()
+//Lecture1().task1()
+//Lecture1().task2()
 
+Lecture3().task2()

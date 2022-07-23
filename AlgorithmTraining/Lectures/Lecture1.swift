@@ -5,9 +5,12 @@
 //  Created by Elena Pospelova on 20.07.2022.
 //
 
+/// contest: https://contest.yandex.ru/contest/27393/problems/
+///
+
 import Foundation
 
-class Lecture1 {}
+final class Lecture1 {}
 
 extension Lecture1 {
     func task2() {
