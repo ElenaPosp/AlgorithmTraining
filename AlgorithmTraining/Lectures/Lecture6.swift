@@ -25,6 +25,22 @@ extension Lecture6 {
     }
 
     func find(_ k: Int, in arr: [Int]) -> Bool {
+        var l = 0
+        var r = arr.count
+        while l < r {
+            let m = (l + r) / 2
+            if arr[m] == k {
+                return true
+            } else if arr[m] > k {
+                r = m
+            } else {
+                l = m + 1
+            }
+        }
+        return false
+    }
+
+    func findW(_ k: Int, in arr: [Int]) -> Bool {
         if arr.count < 2 {
             if arr.first == k {
                 return true
