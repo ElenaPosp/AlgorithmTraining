@@ -7,5 +7,7 @@
 
 import Foundation
 
-//Lecture1().task1()
-Lecture6().taskA()
+var first = "112345"
+var second = "121345"
+let result = DifferentStrings().isDifferent(firstStr: first, secondStr: second)
+print(result)

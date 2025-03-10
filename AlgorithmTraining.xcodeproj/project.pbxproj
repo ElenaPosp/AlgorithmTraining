@@ -11,8 +11,11 @@
 		16316FD328873C7E00AA413C /* Lecture1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16316FD228873C7E00AA413C /* Lecture1.swift */; };
 		16316FD52888576900AA413C /* Lecture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16316FD42888576900AA413C /* Lecture2.swift */; };
 		16316FD72889DE0A00AA413C /* Lecture3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16316FD62889DE0A00AA413C /* Lecture3.swift */; };
+		168E47A52D7B8AD8003AC003 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168E47A42D7B8AD8003AC003 /* LinkedList.swift */; };
 		16954BB1288DBD1B00D7A8B9 /* Lecture5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16954BB0288DBD1B00D7A8B9 /* Lecture5.swift */; };
 		16954BB3288DC2E600D7A8B9 /* Lecture6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16954BB2288DC2E600D7A8B9 /* Lecture6.swift */; };
+		169CDBAC2D7A2DB800646A60 /* ReversedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CDBAB2D7A2DB800646A60 /* ReversedString.swift */; };
+		169CDBAE2D7A343400646A60 /* DifferentStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CDBAD2D7A343400646A60 /* DifferentStrings.swift */; };
 		16B3B216288BF8AC00DEF32F /* Lecture4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3B215288BF8AC00DEF32F /* Lecture4.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +37,11 @@
 		16316FD228873C7E00AA413C /* Lecture1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture1.swift; sourceTree = "<group>"; };
 		16316FD42888576900AA413C /* Lecture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture2.swift; sourceTree = "<group>"; };
 		16316FD62889DE0A00AA413C /* Lecture3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture3.swift; sourceTree = "<group>"; };
+		168E47A42D7B8AD8003AC003 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		16954BB0288DBD1B00D7A8B9 /* Lecture5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture5.swift; sourceTree = "<group>"; };
 		16954BB2288DC2E600D7A8B9 /* Lecture6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture6.swift; sourceTree = "<group>"; };
+		169CDBAB2D7A2DB800646A60 /* ReversedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversedString.swift; sourceTree = "<group>"; };
+		169CDBAD2D7A343400646A60 /* DifferentStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentStrings.swift; sourceTree = "<group>"; };
 		16B3B215288BF8AC00DEF32F /* Lecture4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +75,7 @@
 		16316FC92887325E00AA413C /* AlgorithmTraining */ = {
 			isa = PBXGroup;
 			children = (
+				169CDBAA2D7A2D9200646A60 /* SwiftBook */,
 				16316FCA2887325E00AA413C /* main.swift */,
 				16316FD1288735B100AA413C /* Lectures */,
 			);
@@ -86,6 +93,16 @@
 				16954BB2288DC2E600D7A8B9 /* Lecture6.swift */,
 			);
 			path = Lectures;
+			sourceTree = "<group>";
+		};
+		169CDBAA2D7A2D9200646A60 /* SwiftBook */ = {
+			isa = PBXGroup;
+			children = (
+				169CDBAB2D7A2DB800646A60 /* ReversedString.swift */,
+				169CDBAD2D7A343400646A60 /* DifferentStrings.swift */,
+				168E47A42D7B8AD8003AC003 /* LinkedList.swift */,
+			);
+			path = SwiftBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,10 +165,13 @@
 			files = (
 				16954BB3288DC2E600D7A8B9 /* Lecture6.swift in Sources */,
 				16316FD72889DE0A00AA413C /* Lecture3.swift in Sources */,
+				168E47A52D7B8AD8003AC003 /* LinkedList.swift in Sources */,
 				16316FD328873C7E00AA413C /* Lecture1.swift in Sources */,
 				16954BB1288DBD1B00D7A8B9 /* Lecture5.swift in Sources */,
 				16316FCB2887325E00AA413C /* main.swift in Sources */,
 				16316FD52888576900AA413C /* Lecture2.swift in Sources */,
+				169CDBAE2D7A343400646A60 /* DifferentStrings.swift in Sources */,
+				169CDBAC2D7A2DB800646A60 /* ReversedString.swift in Sources */,
 				16B3B216288BF8AC00DEF32F /* Lecture4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
