@@ -7,7 +7,14 @@
 
 import Foundation
 
-var first = "112345"
-var second = "121345"
-let result = DifferentStrings().isDifferent(firstStr: first, secondStr: second)
-print(result)
+var list = LinkedList<Int>()
+list.append(value: 1)
+list.append(value: 2)
+list.append(value: 3)
+list.append(value: 4)
+
+print(list.description)
+list.removeNode(nodeToRemove: list.first!.next!)
+print(list.description)
+
+
