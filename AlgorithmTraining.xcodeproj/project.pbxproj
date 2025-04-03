@@ -20,6 +20,7 @@
 		169CDBAC2D7A2DB800646A60 /* ReversedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CDBAB2D7A2DB800646A60 /* ReversedString.swift */; };
 		169CDBAE2D7A343400646A60 /* DifferentStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CDBAD2D7A343400646A60 /* DifferentStrings.swift */; };
 		16B3B216288BF8AC00DEF32F /* Lecture4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3B215288BF8AC00DEF32F /* Lecture4.swift */; };
+		16D444982D9F1CF600405F2C /* Saper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D444972D9F1CF600405F2C /* Saper.swift */; };
 		16EA41DC2D8DFD32004AF94B /* TwoLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA41DB2D8DFD32004AF94B /* TwoLinkedList.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		169CDBAB2D7A2DB800646A60 /* ReversedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversedString.swift; sourceTree = "<group>"; };
 		169CDBAD2D7A343400646A60 /* DifferentStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentStrings.swift; sourceTree = "<group>"; };
 		16B3B215288BF8AC00DEF32F /* Lecture4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture4.swift; sourceTree = "<group>"; };
+		16D444972D9F1CF600405F2C /* Saper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saper.swift; sourceTree = "<group>"; };
 		16EA41DB2D8DFD32004AF94B /* TwoLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 				168961002D821D1D00F799FF /* MergeLinkedLists.swift */,
 				165467EA2D9DC6140027E4F0 /* RemoveDuplicatesFromSortedArray.swift */,
 				165467EC2D9DCACF0027E4F0 /* MajorityElement.swift */,
+				16D444972D9F1CF600405F2C /* Saper.swift */,
 			);
 			path = SwiftBook;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				16316FD72889DE0A00AA413C /* Lecture3.swift in Sources */,
 				168E47A52D7B8AD8003AC003 /* ReverseLinkedList.swift in Sources */,
 				165467ED2D9DCACF0027E4F0 /* MajorityElement.swift in Sources */,
+				16D444982D9F1CF600405F2C /* Saper.swift in Sources */,
 				168961012D821D1D00F799FF /* MergeLinkedLists.swift in Sources */,
 				16316FD328873C7E00AA413C /* Lecture1.swift in Sources */,
 				16954BB1288DBD1B00D7A8B9 /* Lecture5.swift in Sources */,
