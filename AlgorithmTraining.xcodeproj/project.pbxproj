@@ -21,6 +21,7 @@
 		169CDBAE2D7A343400646A60 /* DifferentStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CDBAD2D7A343400646A60 /* DifferentStrings.swift */; };
 		16B3B216288BF8AC00DEF32F /* Lecture4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3B215288BF8AC00DEF32F /* Lecture4.swift */; };
 		16D444982D9F1CF600405F2C /* Saper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D444972D9F1CF600405F2C /* Saper.swift */; };
+		16D4449A2D9F235400405F2C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D444992D9F235400405F2C /* Queue.swift */; };
 		16EA41DC2D8DFD32004AF94B /* TwoLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA41DB2D8DFD32004AF94B /* TwoLinkedList.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		169CDBAD2D7A343400646A60 /* DifferentStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentStrings.swift; sourceTree = "<group>"; };
 		16B3B215288BF8AC00DEF32F /* Lecture4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture4.swift; sourceTree = "<group>"; };
 		16D444972D9F1CF600405F2C /* Saper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saper.swift; sourceTree = "<group>"; };
+		16D444992D9F235400405F2C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		16EA41DB2D8DFD32004AF94B /* TwoLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				169CDBAB2D7A2DB800646A60 /* ReversedString.swift */,
 				16EA41DB2D8DFD32004AF94B /* TwoLinkedList.swift */,
 				169CDBAD2D7A343400646A60 /* DifferentStrings.swift */,
+				16D444992D9F235400405F2C /* Queue.swift */,
 				168E47A42D7B8AD8003AC003 /* ReverseLinkedList.swift */,
 				168961002D821D1D00F799FF /* MergeLinkedLists.swift */,
 				165467EA2D9DC6140027E4F0 /* RemoveDuplicatesFromSortedArray.swift */,
@@ -189,6 +192,7 @@
 				16316FCB2887325E00AA413C /* main.swift in Sources */,
 				16EA41DC2D8DFD32004AF94B /* TwoLinkedList.swift in Sources */,
 				16316FD52888576900AA413C /* Lecture2.swift in Sources */,
+				16D4449A2D9F235400405F2C /* Queue.swift in Sources */,
 				169CDBAE2D7A343400646A60 /* DifferentStrings.swift in Sources */,
 				169CDBAC2D7A2DB800646A60 /* ReversedString.swift in Sources */,
 				16B3B216288BF8AC00DEF32F /* Lecture4.swift in Sources */,

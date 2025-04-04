@@ -50,9 +50,7 @@ struct LinkedList<T: Equatable>: CustomStringConvertible {
     mutating func removeNode(nodeToRemove: ListNode<T>) {
         let next = nodeToRemove.next
         let previous = nodeToRemove.previous
-       
-        print(description)
-        
+               
         if let previous {
             previous.next = next
             next?.previous = previous
@@ -63,8 +61,6 @@ struct LinkedList<T: Equatable>: CustomStringConvertible {
         if next == nil {
             tail = previous
         }
-        print(description)
-
         nodeToRemove.next = nil
         nodeToRemove.previous = nil
     }
@@ -72,6 +68,7 @@ struct LinkedList<T: Equatable>: CustomStringConvertible {
     
     
     var description: String {
+        guard head != nil else { return "[]" }
         var text = "["
         var node = head
         
